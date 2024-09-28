@@ -45,19 +45,22 @@ html{
     padding-right: 10px; 
 }
 
-.search-bar{
+#search-bar{
     background-color: #2C2C2C;
-    border: solid 1px #2c2c2c;
+    border: solid 1px #2C2C2C;
     border-radius: 8px;
-}
-
-input::placeholder{
     color: white;
 }
 
 input:focus{
+    border-style: solid;
     border-color:#E87646;
     outline: none;
+    width: 744px;
+}
+
+input::placeholder{
+    color: white;
 }
 
 /* LAYOUT */
@@ -147,7 +150,7 @@ html{
     border-radius: 50%;
 }
 
-.search-bar{
+#search-bar{
     width: 300px;
     height: 32px;
     padding: 4px 16px;
