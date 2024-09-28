@@ -1,0 +1,125 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+* {
+    margin: 0;
+}
+  
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+  
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+  
+input, button, textarea, select {
+    font: inherit;
+}
+  
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+  
+#root, #__next {
+    isolation: isolate;
+}
+
+/* APPEARANCE */
+
+.nav-section{
+
+    background-color: #191A1c;
+    border-bottom: solid 1px #E87646;
+
+}
+
+html{
+    /* Acts as a scroll */
+    padding-right: 10px; 
+}
+
+
+/* LAYOUT */
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+
+.nav-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    padding: 0 16px;
+}
+
+
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    width: 204px;
+    height: 40px;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+
+.side-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    width: 40px;
+    width: 40px;
+
+}
+
+.side-icon{
+    height: 24px;
+    width: 40px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    margin: 2px 0;
+    height: 36px;
+}
+
+.mangadex-logo{
+    height: 34px;
+    width: 40px;
+    margin-right: 4px;
+}
+
+.wordmark{
+    height: 28px;
+    width: 112px;
+    align-self: center;
+
+}
+
+
+.avatar-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
