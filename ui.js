@@ -1,10 +1,12 @@
 const searchBar= document.getElementById("search-bar");
+const ctrlContainer = document.getElementsByClassName("ctrl-container");
 
 searchBar.addEventListener('focus', () =>{
 
     searchBar.style.width = "744px";
     searchBar.style.outline = "1px solid #E87646";
     searchBar.style.transition = "width 0.2s";
+
 });
 
 searchBar.addEventListener('blur', () => {
