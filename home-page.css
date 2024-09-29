@@ -31,6 +31,10 @@ p, h1, h2, h3, h4, h5, h6 {
     isolation: isolate;
 }
 
+
+/* NAVIGATION BAR */
+
+
 /* APPEARANCE */
 
 .nav-section{
@@ -187,6 +191,7 @@ html{
     line-height: 20px;
     position: absolute;
     gap: 4px;
+    pointer-events: none;
 }
 
 .search-icon-container{
@@ -196,5 +201,7 @@ html{
     right: 4px;
     display: flex;
     align-items: center;
+    pointer-events: none;
 }
     
+/* NAVIGATION BAR (END) */
