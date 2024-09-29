@@ -1,4 +1,4 @@
-# Mangadex Clone Project(For educational pruposes)
+# Mangadex Clone Project(For educational purposes)
 
 # Project Overview
 
