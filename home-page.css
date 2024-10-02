@@ -71,7 +71,6 @@ input::placeholder{
 }
 
 .side-container:hover{
-    --opacity: 1;
     background-color: rgba(79, 79, 79, .35);
     border-radius: 50%;
     transition: filter .1s ease-out, color .1s ease-out, min-width .2s ease-out;
