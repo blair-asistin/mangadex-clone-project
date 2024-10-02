@@ -66,6 +66,10 @@ input::placeholder{
     
 }
 
+.side-container{
+    cursor: pointer;;
+}
+
 .side-container:hover{
     --opacity: 1;
     background-color: rgba(79, 79, 79, .35);
