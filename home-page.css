@@ -224,6 +224,22 @@ html{
     background-color: #191A1c;
     width: 0px;
     white-space: nowrap;
+
+    transform-origin: top right;
+    animation: growSearchResult 0.2s forwards;
 }
+
+@keyframes growSearchResult{
+    from{
+        width: 0;
+        height: 0;
+    }
+
+    to{
+        width: 744px;
+        height: 56px;
+    }
+}
+
     
 /* NAVIGATION BAR (END) */

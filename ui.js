@@ -12,7 +12,9 @@ searchBar.addEventListener('focus', () =>{
     searchQuery.classList.add("search-query");
     searchQuery.style.transition = "width 0.2s";
 
+
     searchContainer.appendChild(searchQuery);
+    searchQuery.textContent = "Enter a search query...";
 
     searchBar.style.width = "744px";
     searchBar.style.outline = "1px solid #E87646";
@@ -20,11 +22,11 @@ searchBar.addEventListener('focus', () =>{
 
     ctrlContainer.remove();
 
-    setTimeout(function () {
+    // setTimeout(function () {
         
-        searchQuery.style.width = "744px";
-        searchQuery.textContent = "Enter a search query...";
-    }, 0);
+    //     searchQuery.style.width = "744px";
+    //     
+    // }, 0);
 
     
     
