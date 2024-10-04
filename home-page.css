@@ -7,6 +7,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
 }
   
 body {
@@ -39,7 +40,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .nav-section{
 
-    background-color: #191A1c;
+    background-color: #0F1011;
     border-bottom: solid 1px #E87646;
 
 }
@@ -178,6 +179,7 @@ html{
 .search-container{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     position: relative;
 }
 
@@ -212,6 +214,16 @@ html{
     display: flex;
     align-items: center;
     pointer-events: none;
+}
+
+.search-query{
+    position: absolute;
+    padding: 16px;
+    top: 36px;
+    border-radius: 8px;
+    background-color: #191A1c;
+    width: 0px;
+    white-space: nowrap;
 }
     
 /* NAVIGATION BAR (END) */

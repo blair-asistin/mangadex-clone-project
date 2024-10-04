@@ -6,11 +6,27 @@ const searchBar = document.getElementById("search-bar");
 searchBar.addEventListener('focus', () =>{
 
     const ctrlContainer = document.querySelector(".ctrl-container");
+    const searchContainer = document.querySelector(".search-container");
+
+    const searchQuery = document.createElement("div");
+    searchQuery.classList.add("search-query");
+    searchQuery.style.transition = "width 0.2s";
+
+    searchContainer.appendChild(searchQuery);
+
     searchBar.style.width = "744px";
     searchBar.style.outline = "1px solid #E87646";
     searchBar.style.transition = "width 0.2s";
 
     ctrlContainer.remove();
+
+    setTimeout(function () {
+        
+        searchQuery.style.width = "744px";
+        searchQuery.textContent = "Enter a search query...";
+    }, 0);
+
+    
     
 });
 
@@ -19,6 +35,9 @@ searchBar.addEventListener('focus', () =>{
 searchBar.addEventListener('blur', () => {
 
     const searchContainer = document.querySelector(".search-container");
+    const searchQuery = document.querySelector(".search-query");
+
+    searchQuery.remove();
 
     const createCtrl = document.createElement("div");
     createCtrl.classList.add("ctrl-container");
