@@ -256,6 +256,16 @@ html{
     font-weight: 700;
 
 }
+
+.author{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.details{
+    font-size: 14px;
+}
 /* LAYOUT */
 
 .carousel-container{
@@ -298,6 +308,9 @@ html{
 }
 
 .description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 1177.250px;
     height: 306.797px;
 }
@@ -321,3 +334,11 @@ html{
     border-radius: 4px;
     padding: 0 6px;
 }
+
+.details{
+    width: 1177.250px;
+    height: 155.8px;
+    padding: 8px 0;
+}
+
+
