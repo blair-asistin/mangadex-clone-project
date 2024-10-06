@@ -247,6 +247,17 @@ html{
 
 /* IMAGE SLIDER */
 
+
+/* APPEARANCE */
+
+.genre{
+    background-color: #2C2C2C;
+    font-size: 10px;
+    font-weight: 700;
+
+}
+/* LAYOUT */
+
 .carousel-container{
     width: 100%;
     height: 440px;
@@ -286,16 +297,27 @@ html{
     object-fit: cover;
 }
 
-.title-container{
+.description-container{
     width: 1177.250px;
     height: 306.797px;
 }
 
 .manga-title{
+    width: 1177.250px;
+    height: 88px;
     font-weight: 700;
     font-size: 36px;
-    
+    line-height: 44px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
+.genre-container{
+    display: flex;
+    gap: 4px;
+}
+
+.genre{
+    border-radius: 4px;
+    padding: 0 6px;
+}
