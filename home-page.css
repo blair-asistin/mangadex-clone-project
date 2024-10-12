@@ -9,6 +9,15 @@
     font-style: normal;
     color: white;
 }
+
+h1{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 450;
+    font-style: normal;
+}
   
 body {
     line-height: 1.5;
@@ -295,6 +304,13 @@ html{
     height: 440px;
     overflow: hidden;
 
+}
+
+.popular-titles{
+    position: absolute;
+    top: 80px;
+    left: 250px
+    
 }
 
 .carousel-slide{
