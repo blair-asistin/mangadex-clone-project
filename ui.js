@@ -65,7 +65,25 @@ searchBar.addEventListener('blur', () => {
 });
 
 
-//Image slider
+const navbarSticky = document.querySelector("#NavBar");
+
+function stickynavbar() {
+    
+    if (window.scrollY > 0) { // Check if the scroll position is greater than 0
+        navbarSticky.classList.add('sticky');
+        navbarSticky.style.backgroundColor = "#0F1011";
+        navbarSticky.style.borderBottom= "solid 1px #E87646"
+    } else {
+        navbarSticky.classList.remove("sticky");
+        navbarSticky.removeAttribute("style");
+    }
+}
+
+window.addEventListener("scroll", stickynavbar);
+
+
+
+//IMAGE SLIDER
 const carouselSlide = document.querySelector(".carousel-slide");
 const carouselImages = document.querySelectorAll(".carousel-slide .img-container");
 
