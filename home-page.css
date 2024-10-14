@@ -79,7 +79,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 html{
     /* Acts as a scroll */
-    padding-right: 10px; 
+    /* padding-right: 10px;  */
 }
 
 #search-bar{
@@ -311,7 +311,7 @@ html{
 .slider-section{
     position: relative;
     z-index: 0;
-    bottom: 56px;
+    margin-top: -56px;
 }
 
 .carousel-container{
@@ -414,3 +414,121 @@ html{
 }
 
 
+/* MAIN CONTENT */
+
+/* Appearance */
+
+.main-content{
+    background-color: #191A1C;
+}
+
+
+
+/* Layout */
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.main-container{
+    width: 1408px;
+    height: 648px;
+}
+
+
+/* Latest Updates */
+
+.latest-title{
+
+    height: 40px;
+    
+}
+
+.latest-container{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    column-gap: 24px;
+    width: 1408px;
+    height: 592px;
+    
+}
+
+.latest-cards{
+    background-color: #2C2C2C;
+    display: grid;
+    padding: 16px;
+    gap: 1rem;
+    
+}
+
+.update-card{
+    height: 80px;
+}
+
+.manga-info{
+    display: flex;
+    column-gap: 8px;
+    row-gap: 8px;
+    
+}
+
+.manga-update-img{
+    max-height: 80px;
+    width: 56px;
+    object-fit: cover;
+}
+
+.manga-desc{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.desc-2nd-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.ch-fl-container{
+    display: flex;
+    gap: 8px;
+}
+
+.flag-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.desc-3rd-row{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.author-container{
+    display: flex;
+    gap: 8px;
+    
+}
+
+.comment-icon, .author-icon{
+    height: 16px;
+    width: 16px;
+    align-self: center;
+}
+
+
+
+
+
+
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
